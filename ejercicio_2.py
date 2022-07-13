@@ -2,7 +2,7 @@ n=int(input("Ingrese el número de pares de valores X1 y X2: "))
 listaNum1 = []
 listaNum2 = []
 for i in range(n):
-    print("Ingrese el ", i+1, "° par de numeros enteros positivos: ")
+    print("Ingrese el ", i+1,"° par de numeros enteros positivos: ")
     
     num1=int(input())
     while num1<=0:
